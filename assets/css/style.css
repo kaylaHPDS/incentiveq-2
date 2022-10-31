@@ -36,7 +36,7 @@ header {
     align-items: center;
 }
 
-/* Nav & Footer Menu */
+/* Nav & Footer Menus */
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +47,21 @@ header {
 
 .menu li {
     padding-right: 12px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero p {
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* Home Img Grid - W3 Schools */
@@ -86,10 +101,18 @@ footer {
 
 /* MEDIA QUERIES */
 /* For smaller desktop screens and smaller */
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+    .hero {
+        padding: 70px 35px;
+    }
+}
  
 /* For tablets and smaller*/
 @media screen and (max-width: 768px) {
+    .hero {
+        padding: 40px 35px;
+    }
+
     .img-col {
         flex: 50%;
         max-width: 50%;
@@ -98,8 +121,50 @@ footer {
  
 /* For mobile phones and smaller */
 @media screen and (max-width: 575px) {
+    header {
+        padding: 20px 35px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .menu li {
+        padding: 12px 6px;
+    }
+    
+    .hero {
+        padding: 20px 35px;
+    }
+
     .img-col {
         flex: 100%;
         max-width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 20px 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    
+    footer p {
+        text-align: center;
     }
 }
