@@ -25,6 +25,16 @@ body {
     min-height: 100%;
     padding-bottom: 6.47rem;
     box-sizing: inherit;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* Global Styles */
+.display-text {
+    font-family: 'Carter One', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Header */
@@ -34,6 +44,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--fifth-color);
+}
+
+header a {
+    color: var(--second-color);
 }
 
 /* Nav & Footer Menus */
@@ -46,7 +61,18 @@ header {
 }
 
 .menu li {
-    padding-right: 12px;
+    padding: 12px 6px;
+}
+
+.menu a {
+    padding: 5px;
+}
+
+.menu a:hover {
+    background-color: var(--sixth-color);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--fifth-color);
 }
 
 /* Hero Section */
@@ -91,6 +117,10 @@ header {
     padding: 80px 35px;
     text-align: center;
 }
+
+.home-products h3 {
+    padding-bottom: 18px;
+}
  
 /* Footer */
 footer {
@@ -103,7 +133,23 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-} 
+    font-size: 12px;
+    font-style: italic;
+    background-color: var(--fifth-color);
+    color: var(--second-color);
+}
+
+footer a {
+    color: var(--second-color);
+    padding: 5px;
+}
+
+footer a:hover {
+    background-color: var(--sixth-color);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--fifth-color);
+}
 
 /* MEDIA QUERIES */
 /* For smaller desktop screens and smaller */
