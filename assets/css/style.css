@@ -25,7 +25,8 @@ body {
     min-height: 100%;
     padding-bottom: 6.47rem;
     box-sizing: inherit;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--third-color);
 }
 
 /* Global Styles */
@@ -33,8 +34,41 @@ body {
     font-family: 'Carter One', sans-serif;
 }
 
+h1.display-text {
+    font-size: 40px;
+}
+
+h2.display-text {
+    font-size: 36px;
+}
+
+h3.display-text {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
 a {
     text-decoration: none;
+}
+
+.btn {
+    background-color: var(--seventh-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+
+.btn:hover {
+    background-color: var(--sixth-color);
 }
 
 /* Header */
@@ -85,12 +119,22 @@ header a {
     align-items: center;
 }
 
+.hero h2 {
+    text-align: center;
+    line-height: 1.2;
+}
+
 .hero p {
     text-align: center;
     padding: 20px 0;
 }
 
 /* Grid - W3 Schools */
+.img-grid {
+    background-color: var(--fourth-color);
+    padding: 40px 0 50px 0;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
