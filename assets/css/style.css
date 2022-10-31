@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --first-color: #000;
+    --second-color: #fff;
+    --third-color: #8ecae6;
+    --fourth-color: #219ebc;
+    --fifth-color: #023047;
+    --sixth-color: #ffb703;
+    --seventh-color: #fb8500;
+}
   
 html {
     height: 100%;
@@ -13,8 +23,30 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 6.47rem;
     box-sizing: inherit;
+}
+
+/* Header */
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav & Footer Menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    padding-right: 12px;
 }
 
 /* Home Img Grid - W3 Schools */
@@ -22,6 +54,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-col {
@@ -35,12 +70,18 @@ body {
     vertical-align: middle;
     width: 100%;
 }
-  
+ 
+/* Footer */
 footer {
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 } 
 
 /* MEDIA QUERIES */
