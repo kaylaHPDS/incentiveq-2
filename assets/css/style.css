@@ -64,8 +64,8 @@ header {
     padding: 20px 0;
 }
 
-/* Home Img Grid - W3 Schools */
-.img-row {
+/* Grid - W3 Schools */
+.row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -74,16 +74,22 @@ header {
     margin-right: auto;
 }
 
-.img-col {
+.col {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
 }
 
-.img-col img {
+.col img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+/* Homepage Product Previews */
+.home-products {
+    padding: 80px 35px;
+    text-align: center;
 }
  
 /* Footer */
@@ -105,6 +111,29 @@ footer {
     .hero {
         padding: 70px 35px;
     }
+
+    .home-products {
+        padding: 60px 35px;
+        text-align: center;
+    }
+
+    footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 20px 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    
+    footer p {
+        text-align: center;
+    }
 }
  
 /* For tablets and smaller*/
@@ -113,9 +142,14 @@ footer {
         padding: 40px 35px;
     }
 
-    .img-col {
+    .col {
         flex: 50%;
         max-width: 50%;
+    }
+
+    .home-products {
+        padding: 50px 35px;
+        text-align: center;
     }
 }
  
@@ -145,26 +179,13 @@ footer {
         padding: 20px 35px;
     }
 
-    .img-col {
+    .col {
         flex: 100%;
         max-width: 100%;
     }
 
-    footer {
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        padding: 20px 35px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-    }
-    
-    footer p {
+    .home-products {
+        padding: 30px 35px;
         text-align: center;
     }
 }
