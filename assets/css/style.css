@@ -16,6 +16,25 @@ body {
     padding-bottom: 1rem;
     box-sizing: inherit;
 }
+
+/* Home Img Grid - W3 Schools */
+.img-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.img-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.img-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
   
 footer {
     position: absolute;
@@ -23,3 +42,23 @@ footer {
     left: 0;
     bottom: 0;
 } 
+
+/* MEDIA QUERIES */
+/* For smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {}
+ 
+/* For tablets and smaller*/
+@media screen and (max-width: 768px) {
+    .img-col {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+ 
+/* For mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    .img-col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
