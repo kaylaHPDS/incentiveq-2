@@ -40,6 +40,7 @@ h1.display-text {
 
 h2.display-text {
     font-size: 36px;
+    text-align: center;
 }
 
 h3.display-text {
@@ -216,6 +217,11 @@ header a {
 
 .product-description {
     padding: 20px 5px;
+}
+
+/* Privacy Policy */
+.privacy {
+    padding: 20px 35px;
 }
  
 /* Footer */
