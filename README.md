@@ -1,7 +1,5 @@
 # Family Games Theme
 
-## Description
-
 An HTML theme for an e-commerce website.
 
 ## Resources
