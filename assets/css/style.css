@@ -44,6 +44,7 @@ h2.display-text {
 
 h3.display-text {
     font-size: 32px;
+    text-align: center;
 }
 
 h4 {
@@ -200,6 +201,22 @@ header a {
 .home-card h5 {
     margin-bottom: 30px;
 }
+
+.product-card {
+    background-color: var(--second-color);
+    border-radius: 5px;
+    border: 1px solid #424242;
+    padding: 10px 5px;
+    width: 45%;
+    margin: 5px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-description {
+    padding: 20px 5px;
+}
  
 /* Footer */
 footer {
@@ -296,6 +313,11 @@ footer a:hover {
 
     .home-card {
         width: 45%;
+        margin: 5px 5px;
+    }
+
+    .product-card {
+        width: 90%;
         margin: 5px 5px;
     }
 }
