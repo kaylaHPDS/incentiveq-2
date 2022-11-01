@@ -164,7 +164,7 @@ header a {
 .home-products {
     padding: 80px 0px;
     text-align: center;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -177,15 +177,18 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .home-card {
     background-color: var(--third-color);
     border-radius: 5px;
     padding: 10px 5px;
-    height: 180px;
     width: 22%;
     margin: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .home-card h5 {
@@ -228,9 +231,14 @@ footer a:hover {
         padding: 70px 35px;
     }
 
+    .img-grid {
+        width: 100%;
+    }
+
     .home-products {
         padding: 60px 35px;
         text-align: center;
+        width: 100%;
     }
 
     footer {
@@ -263,9 +271,18 @@ footer a:hover {
         max-width: 50%;
     }
 
+    .hidden-md {
+        display: none;
+    }
+
     .home-products {
         padding: 50px 35px;
         text-align: center;
+    }
+
+    .home-card {
+        width: 45%;
+        margin: 5px 5px;
     }
 }
  
@@ -300,8 +317,17 @@ footer a:hover {
         max-width: 100%;
     }
 
+    .hidden-sm {
+        display: none;
+    }
+
     .home-products {
         padding: 30px 35px;
         text-align: center;
+    }
+
+    .home-card {
+        width: 90%;
+        margin: 5px 5px;
     }
 }
