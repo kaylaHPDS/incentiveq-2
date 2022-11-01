@@ -137,7 +137,8 @@ header a {
 
 /* Grid - W3 Schools */
 .img-grid {
-    background-color: var(--seventh-color);
+    /* background-color: var(--seventh-color); */
+    background-image: linear-gradient(rgba(251, 133, 0, 0.7), rgba(251, 133, 0, 0.7)), url("../images/filter2-pexels-rovenimagescom-949587.png");
     padding: 40px 0 50px 0;
 }
 
