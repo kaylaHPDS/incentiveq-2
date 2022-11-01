@@ -271,6 +271,7 @@ header a {
 .single-product p {
     padding: 8px 0;
 }
+
 .product-price {
     text-align: center;
     padding-bottom: 20px;
@@ -278,6 +279,24 @@ header a {
 
 .product-price h3 {
     padding: 10px 0 20px 0;
+}
+
+.single-description {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.single-text {
+    width: 60%;
+}
+
+.single-img {
+    padding: 10px;
+    width: 40%;
 }
 
 /* Contact */
@@ -400,6 +419,25 @@ footer a:hover {
     .product-card {
         width: 90%;
         margin: 5px 5px;
+    }
+
+    .single-description {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .single-text {
+        width: 100%;
+    }
+    
+    .single-img {
+        padding: 10px;
+        width: 100%;
     }
 
     .about-width {
