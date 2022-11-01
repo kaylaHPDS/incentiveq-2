@@ -257,6 +257,29 @@ header a {
     background-attachment: fixed;
 }
 
+/* Single Product Page */
+.single-product {
+    padding: 20px 35px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.single-product p {
+    padding: 8px 0;
+}
+.product-price {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.product-price h3 {
+    padding: 10px 0 20px 0;
+}
+
 /* Contact */
 .about {
     display: flex;
