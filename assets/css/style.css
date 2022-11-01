@@ -257,6 +257,20 @@ header a {
     background-attachment: fixed;
 }
 
+/* Contact */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-width {
+    width: 30%;
+    padding: 5px;
+}
+
 /* Privacy Policy & Terms */
 .privacy {
     padding: 20px 35px;
@@ -364,6 +378,11 @@ footer a:hover {
         width: 90%;
         margin: 5px 5px;
     }
+
+    .about-width {
+        width: 50%;
+        padding: 5px;
+    }
 }
  
 /* For mobile phones and smaller */
@@ -409,5 +428,10 @@ footer a:hover {
     .home-card {
         width: 90%;
         margin: 5px 5px;
+    }
+
+    .about-width {
+        width: 80%;
+        padding: 5px;
     }
 }
