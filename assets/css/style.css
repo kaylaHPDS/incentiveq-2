@@ -86,6 +86,10 @@ a {
     background-color: var(--seventh-color);
 }
 
+.btn-shadow {
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.2));
+}
+
 .shadow {
     filter: drop-shadow(4px 4px 2px rgba(0,0,0,0.4));
 }
