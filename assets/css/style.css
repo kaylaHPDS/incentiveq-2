@@ -158,7 +158,7 @@ header a {
 }
 
 .shadow {
-    filter: drop-shadow(4px 4px 2px var(--first-color));
+    filter: drop-shadow(4px 4px 2px #424242);
 }
 
 /* Homepage Product Previews */
