@@ -332,6 +332,12 @@ header a {
     margin: 2%;
 }
 
+/* Cart & Checkout */
+.checkout-btn {
+    width: 40%;
+    margin: 2%;
+}
+
 /* Contact */
 .about {
     display: flex;
