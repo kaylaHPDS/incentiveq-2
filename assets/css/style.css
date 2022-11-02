@@ -338,6 +338,13 @@ header a {
     margin: 2%;
 }
 
+.fine-print {
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    padding: 4px;
+}
+
 /* Contact */
 .about {
     display: flex;
